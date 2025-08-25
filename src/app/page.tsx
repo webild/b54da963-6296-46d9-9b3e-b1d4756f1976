@@ -26,7 +26,7 @@ export default function Home() {
           items={[
             { title: 'Our Passion', description: 'Expert surfers guiding you every step of the way.' },
             { title: 'Community Focus', description: 'Inclusive and welcoming for everyone.' },
-            { title: 'Adventurous Spirit', description: 'Embrace the thrill of surfing.' },
+            { title: 'Adventurous Spirit', description: 'Embrace the thrill of surfing.' }
           ]}
           className="max-w-4xl mx-auto"
         />
@@ -58,7 +58,7 @@ export default function Home() {
             { title: 'Surfing Action Shot', image: '/images/placeholder1.avif' },
             { title: 'Sunny Day at the Beach', image: '/images/placeholder2.avif' },
             { title: 'Group Surf Lessons', image: '/images/placeholder3.avif' },
-            { title: 'Surf Rentals Setup', image: '/images/placeholder4.avif' },
+            { title: 'Surf Rentals Setup', image: '/images/placeholder4.avif' }
           ]}
           className="max-w-4xl mx-auto"
         />
