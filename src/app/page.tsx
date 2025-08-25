@@ -48,7 +48,7 @@ export default function Home() {
       <section id="testimonials" className="bg-soft-noise py-20">
         <StandardTextbox
           title={<h2 className="text-3xl font-semibold text-[#0A6D9E]">What Our Customers Say</h2>}
-          description={<p className="text-md text-[#12323D]">"Amazing experience!" - Alex</p>}
+          description={<p className="text-md text-[#12323D]">&quot;Amazing experience!&quot; - Alex</p>}
           className="max-w-4xl mx-auto"
         />
       </section>
