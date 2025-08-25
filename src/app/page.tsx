@@ -13,8 +13,9 @@ export default function Home() {
           title={<h1 className="text-4xl font-bold text-[#0A6D9E]">Ride the Waves with Coastal Break!</h1>}
           description={<p className="text-lg text-[#12323D]">Join us for unforgettable surfing lessons and rentals!</p>}
           className="max-w-4xl mx-auto"
-          children={<div />}
-        />
+        >
+          <div />
+        </ContentTextbox>
         <ImageAccordion
           items={[{ title: 'Our Surf Lessons', content: 'Expert instructors at stunning beaches.' }]}
           imageSrc="/images/forest.jpg"
@@ -44,8 +45,9 @@ export default function Home() {
           title={<h2 className="text-3xl font-semibold text-[#0A6D9E]">Rentals</h2>}
           description={<p className="text-md text-[#12323D]">Check our inventory for the best rental options.</p>}
           className="max-w-4xl mx-auto"
-          children={<div />}
-        />
+        >
+          <div />
+        </ContentTextbox>
       </section>
       <section id="testimonials" className="bg-soft-noise py-20">
         <StandardTextbox
