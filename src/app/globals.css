@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-playfair {
+    font-family: var(--font-playfair);
+  }
+  .bg-soft-sea-foam {
+    background-image: var(--bg-soft-sea-foam, none);
+  }
+  .bg-white {
+    background-color: var(--color-background);
+  }
+}
+
+:root {
+  --color-primary: #0A6D9E;
+  --color-secondary: #11A6D6;
+  --color-accent: #F2C14E;
+  --color-text: #12323D;
+  --color-background: #F3F7F9;
+}
+
+@layer components {
+}
+
+@layer utilities {
+}
+
+body {  
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Inter Tight", sans-serif;
+  position: relative;
+  min-height: 100vh;
+}
+
+.stroked-text {
+  text-shadow: 2px 2px 0 #000;
+  -webkit-text-stroke: 1px #000;
+}
